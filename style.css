@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color: #f2f2f2;
+    --text-dark: #000;
+}
+/* navbar */
+.body-style{
+    width: 90%;
+    margin: 0 auto;
+}
+.logo{
+    padding: 15px 35px;
+    height: 3.5rem;
+}
+.nav-link{
+    font-size: 13px;
+    padding: 0 15px 0 15px;
+    color: var(--text-dark) !important;
+}
+.nav-icon{
+    font-size: 18px;
+    padding: 0 15px 0 15px;
+    color: var(--text-dark);
+}
+/* main container */
+.img-slider{
+    width: 100%;
+    height: 90vh;
+    
+}
+.slider-item1,
+.slider-item2{
+    position: relative;
+}
+.img-text1{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+.img-text2{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 650px;
+    height: 400px;
+    padding: 60px 40px;
+}
+/* device section */
+.margin-top {
+    margin-top: 8rem !important;
+}
+.img-device{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.device-text a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* card section */
+.card{
+    border: none;
+}
+.card-item{
+    padding: 20px;
+}
+.card a{
+    font-size: 16px;
+    font-weight: bold;
+}
+.card h2{
+    font-weight: bold;
+}
+/* section */
+.ai{
+    width: 100%;
+    height: 600px;
+    /* background-image: url("pics/box1.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; */
+    padding-left: 70px;
+}
+.bing-img{
+    width: 100%;
+    height: 90vh;
+}
+.ai p{
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+/* social icon */
+.social-icon{
+    margin-top: 4rem;
+}
+.social-icon p{
+    font-size: 1.5rem;
+}
+.social-icon i{
+    margin-top: -10px;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+footer{
+    background: #f2f2f2;
+    padding: 40px 0;
+    font-size: 12px;
+}
+footer li {
+   list-style: none !important;
+}
+footer a{
+   
+    text-decoration: none;
+    color: var(--text-dark);
+}
+.footer-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-ul ul{
+    margin-top: 20px;
+}
+.footer-ul li{
+    margin-top: 10px;
+    font-size: 14px;
+}
+@media(max-width: 560px){
+    .slider-item1,.slider-item2{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .img-slider{
+        height: auto;
+        width: 100%;
+    }
+}
